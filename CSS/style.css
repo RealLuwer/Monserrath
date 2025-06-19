@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(to right, #dff6f0, #e9f7f3);
+}
+
+nav {
+  width: 240px;
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+nav h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 12px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #3cb371;
+}
+
+main {
+  margin-left: 260px;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  color: #429265;
+  font-size: 2em;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4e679e;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
+
+/* Estilo para datos científicos */
+.dato-cientifico {
+  font-style: italic;
+  color: #2e8b57;
+  margin-top: 8px;
+  font-size: 0.9em;
+  border-left: 4px solid #3cb371;
+  padding-left: 10px;
+  background-color: #e1f4e8;
+  border-radius: 5px;
+}
+
+/* Estilo para la sección de soporte */
+.soporte {
+  margin-top: 20px;
+  background-color: #3cb371;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.soporte input,
+.soporte textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5p
+}
